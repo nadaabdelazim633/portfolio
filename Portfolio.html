@@ -1,120 +1,122 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <title> MY Portfolio </title>
+  <title>Nada Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav>
-    <a href="#">About</a> |
-    <a href="#">Skills</a> |
-    <a href="#">Experience</a> |
-    <a href="#">Projects</a> |
-    <a href="#">Contact</a>
-  </nav>
-  <hr />
 
-  <h1>About Me</h1>
-    <p>
-        Hi, I'm Nada Abdelazim, an aspiring Mobile Developer with a strong foundation in Java, C++, and problem-solving.
-        I'm passionate about building mobile apps using Flutter & Dart, and I also have experience in web development.
-        Currently, I’m working on real-world projects while expanding my skills in cross-platform development.
-    </p>
+ <nav>
+  <div class="nav-left">
+    <a href="#hero">Home</a> |
+    <a href="#about">About</a> |
+    <a href="#skills">Skills</a> |
+    <a href="#experience">Experience</a> |
+    <a href="#projects">Projects</a> |
+    <a href="#contact">Contact</a>
+  </div>
 
-    <p><em>"You can view or download my latest resume below:"</em></p>
-    <a href="Nada-Abdelazim.pdf (2).pdf" download> <button>  Click here to download my CV </button> </a>
-  <hr />
+  <div class="nav-right">
+    <a href="Nada-Abdelazim.pdf" download class="nav-cv">Download My CV</a>
+  </div>
+</nav>
 
-      <!-- Skills Section  -->
-  <h2>Technical Skills</h2>
+
+  <section id="hero" class="section">
+    <h1><em>Hello!!!</em></h1>
+    <p class="name">I'm Nada<br>Abdelazim👋</p>
+<div class="btn-container">
+  <button class="role-btn">Mobile App Developer</button>
+</div>
+  </section>
+
+   <section id="about" class="section">
+    <h1>About Me</h1> 
+    <p>An aspiring Mobile Developer with a strong foundation in Java, C++, and problem-solving.</p>
+    <p>I love building mobile apps using Flutter & Dart, and also have a solid background in web development.</p>
+    <p> I have gained experience in Java, C++, and web development, with a strong focus on building dynamic and responsive user interfaces. My training at NTI (Web Design),Google DSC (Java), and DEPI (Software & Mobile App Development) has helped me refine my problem-solving abilities and hands-on coding skills.
+        Front-end development has become my passion—a space where creativity and logic come together to craft engaging user experiences.</p>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Technical Skills</h2>
     <ul>
-        <li><strong>Programming Languages:</strong> Java, Oop, C++, Dart.</li>
-        <li><strong>Mobile Development:</strong> Flutter & Dart.</li>
-        <li><strong>Web Development:</strong> HTML, CSS, JavaScript.</li>
-        <li><strong>Tools & Platforms:</strong> Git, GitHub, VS Code, Android Studio.</li>
-        <li><strong>Other Skills:</strong> Problem Solving, Teamwork, UI Design Basics.</li>
+      <li><strong>Programming Languages:</strong> Java, OOP, C++, Dart</li>
+      <li><strong>Mobile Development:</strong> Flutter & Dart</li>
+      <li><strong>Web Development:</strong> HTML, CSS, JavaScript</li>
+      <li><strong>Tools & Platforms:</strong> Git, GitHub, VS Code, Android Studio</li>
+      <li><strong>Other Skills:</strong> Problem Solving, Teamwork, UI Design Basics</li>
     </ul>
+  </section>
 
-  <hr />
-      <!-- Experience Section  -->
-  <h2>Experience</h2>
+  <section id="experience" class="section">
+    <h2>Experience</h2>
     <div>
-        <h3> <i class="fa-solid fa-mobile-screen"></i>  Mobile & Software Development – Digital Egypt Pioneers (DEPI)  </h3>
-        <p><em>Completed Training | (Oct.2024 –July 2025)</em></p>
-        <ul>
+      <h3>Mobile & Software Development – DEPI</h3>
+      <p><em>Oct. 2024 – July 2025</em></p>
+      <ul>
         <li>Explored mobile and software development concepts</li>
-        <li>Strengthened programming logic and application design skills</li>
-        </ul>
+        <li>Strengthened programming logic and app design</li>
+      </ul>
     </div>
-
     <div>
-        <h3><i class="fa-solid fa-code-branch"></i> Web Design Intern – NTI</h3> 
-        <p><em>Completed Training | ( June 2024 – July 2024)</em></p>
-        <ul>
-        <li>Learned fundamentals of HTML, CSS, and responsive web design</li>
-        <li>Built sample layouts and user interfaces using modern design practices</li>
-        </ul>
+      <h3>Web Design Intern – NTI</h3>
+      <p><em>June 2024 – July 2024</em></p>
+      <ul>
+        <li>Learned HTML, CSS, and responsive web design</li>
+        <li>Built layouts using modern design practices</li>
+      </ul>
     </div>
-
     <div>
-        <h3> <i class="fa-solid fa-code"></i> Java Trainee – Google Developer Student Club (GDSC)</h3>
-        <p><em>Completed Training | (July 2023 – Aug. 2024)</em></p>
-        <ul>
-        <li>Gained hands-on experience with Java programming</li>
-        <li>Worked on basic applications and problem-solving exercises</li>
-        </ul>
+      <h3>Java Trainee – GDSC</h3>
+      <p><em>July 2023 – Aug. 2024</em></p>
+      <ul>
+        <li>Hands-on experience with Java</li>
+        <li>Created basic applications and solved problems</li>
+      </ul>
     </div>
+  </section>
 
-  <hr />
-       <!-- Projects Section  -->
-  <h2>My Projects</h2>
+  <section id="projects" class="section">
+    <h2>Projects</h2>
     <ol>
-        <li><strong>Accessories E-Commerce Website</strong><br />
-          A responsive online store for selling accessories. Built using HTML, CSS, and JavaScript, focused on front-end design and user experience.
-        </li>
-        <br />
-        <li><strong>Local Hobby Sharing Platform</strong><br />
-            A front-end project designed to connect people with shared hobbies in their local areas. Developed as a team project using HTML, CSS, and basic JavaScript.
-        </li>
-        <br />
-        <li><strong>Login & Register UI</strong><br />
-            Created an animated and responsive login/register interface using HTML, CSS, and JavaScript with soft gradients and modern design elements.
-        </li>
-        <br />
-
-        <li><strong>Flutter Practice Projects</strong><br />
-            Currently learning Flutter & Dart by building simple mobile apps to strengthen my cross-platform development skills.
-        </li>
+      <li><strong>Accessories E-Commerce Website:</strong> Front-end store built with HTML/CSS/JS</li>
+      <li><strong>Local Hobby Sharing Platform:</strong> Team-based front-end connection app</li>
+      <li><strong>Login & Register UI:</strong> Animated responsive UI using CSS effects</li>
+      <li><strong>Flutter Practice Apps:</strong> Small mobile projects for skill-building</li>
     </ol>
-  <hr />
-     <!-- Contact Section  -->
-  <h2>Contact Me</h2>
-    <form>
-        <label for="name">Name:</label><br />
-        <input type="text" id="name" name="name" required /><br /><br />
+  </section>
 
-        <label for="email">Email:</label><br />
-        <input type="email" id="email" name="email" required /><br /><br />
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
 
-        <label for="message">Message:</label><br />
-        <textarea id="message" name="message" rows="5" cols="30"  required></textarea><br /><br />
-        <input type="submit" value="Submit" />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <input type="submit" value="Submit" class="btn" />
     </form>
-     <!-- Social Platforme  -->
-  <h2>Find Me Online</h2>
-    <ul>
-        <li><a href="https://github.com/nadaabdelazim633" target="_blank">
-            <i class="fab fa-github"></i> GitHub </a>
-        </li>
-        <li> <a href="https://www.linkedin.com/in/nada-abdelazim-249159309?" target="_blank">
-            <i class="fab fa-linkedin"></i> LinkedIn</a>
-        </li>
-        <li><a href="mailto:amgad@nadaabdelazim89@gmail.com">
-            <i class="fa-solid fa-envelope"></i> Email</a>
-        </li>
-    </ul>
+  </section>
+    <footer class="footer">
+    <h2>Find Me Online</h2>
+    <div class="social-icons">
+      <a href="https://github.com/nadaabdelazim633" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/nada-abdelazim-249159309?" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:nadaabdelazim89@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+  </footer>
+  </section>
+
 </body>
 </html>
 
