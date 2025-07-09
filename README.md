@@ -1,7 +1,4 @@
-## 📸 Screenshots
+## Preview
 
-### 🖼️ Screenshot 1
-![Screenshot 1](screenshot1.png)
-
-### 🖼️ Screenshot 2
-![Screenshot 2](screenshot2.png)
+![Project Preview](https://github.com/nadaabdelazim633/portfolio/blob/main/Screenshot1.jpg?raw=true)
+![Project Preview](https://github.com/nadaabdelazim633/my-project-name/blob/main/screenshot.png?raw=true)
