@@ -1,0 +1,12 @@
+// Problem 9: Simulate async loading of user names
+
+void main() async {
+  List<String> users = await getUsers();
+  print(users); 
+}
+
+Future<List<String>> getUsers() async {
+  await Future.delayed(Duration(seconds: 2));
+  return ['Ali', 'Nada', 'Tamer'];
+}
+
